@@ -4,4 +4,4 @@ regions:
 - us-east-1
 
 hostsnames:
-  -private-ip-address
+  - private-ip-address
