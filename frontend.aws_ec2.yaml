@@ -13,4 +13,4 @@ filters:
   instance-state-name : running
 keyed_groups:
   - key: tags.Name
-    seperator: ''
+    #seperator: ''
