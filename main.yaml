@@ -4,3 +4,7 @@
   tasks:
   - name: ping
     ping:
+  - name: intall nginx
+  package:
+    name: nginx 
+    state: present
