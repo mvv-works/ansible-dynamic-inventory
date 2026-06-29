@@ -5,12 +5,12 @@ regions:
 
 hostnames:
   # This option allows displaying the public ip addresses.
-  - ip-address 
+  - private-ip-address 
 
 filters:
   # This selects only running instances with tag `Environment` tag set to `dev`.
   tag:Name: frontend
   instance-state-name : running
 keyed_groups:
-  - key: ec2_tags.Application
+  - key: tags.Name
     seperator: ''
